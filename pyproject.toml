@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "vectr-deal-flow-api"
+version = "0.1.0"
+description = ""
+authors = ["sakkurthi-sashank <sakkurthisashank@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+black = "^24.8.0"
+alembic = "^1.13.2"
+fastapi = "^0.112.0"
+uvicorn = "^0.30.5"
+pydantic-settings = "^2.4.0"
+sqlalchemy = "^2.0.32"
+psycopg2-binary = "^2.9.9"
+mangum = "^0.17.0"
+pydantic = {extras = ["email"], version = "^2.8.2"}
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
